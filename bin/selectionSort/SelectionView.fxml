@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="600.0" minWidth="700.0" style="-fx-border-color: black 2px;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="selectionSort.SelectionViewController">
+   <children>
+      <Label alignment="CENTER" prefHeight="69.0" prefWidth="699.0" text="Selection Sort" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS" size="38.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="203.0" layoutY="151.0" prefHeight="46.0" prefWidth="49.0" style="-fx-border-color: black;" text="5" textAlignment="CENTER" />
+      <Separator layoutX="-7.0" layoutY="70.0" prefHeight="15.0" prefWidth="706.0" />
+      <Label alignment="CENTER" layoutX="252.0" layoutY="151.0" prefHeight="46.0" prefWidth="49.0" style="-fx-border-color: black;" text="4" textAlignment="CENTER" />
+      <Label alignment="CENTER" layoutX="301.0" layoutY="151.0" prefHeight="46.0" prefWidth="49.0" style="-fx-border-color: black;" text="3" textAlignment="CENTER" />
+      <Label alignment="CENTER" layoutX="350.0" layoutY="151.0" prefHeight="46.0" prefWidth="49.0" style="-fx-border-color: black;" text="2" textAlignment="CENTER" />
+      <Label alignment="CENTER" layoutX="399.0" layoutY="151.0" prefHeight="46.0" prefWidth="49.0" style="-fx-border-color: black;" text="1" textAlignment="CENTER" />
+      <Label alignment="CENTER" layoutX="448.0" layoutY="151.0" prefHeight="46.0" prefWidth="49.0" style="-fx-border-color: black;" text="6" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
