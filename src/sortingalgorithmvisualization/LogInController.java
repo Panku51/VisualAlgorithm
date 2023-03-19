@@ -25,9 +25,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import sun.misc.BASE64Encoder;
 
-/**
- * @author shiningflash
- */
 
 public class LogInController implements Initializable {
 

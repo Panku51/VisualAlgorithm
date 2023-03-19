@@ -1,9 +1,5 @@
 package sortingalgorithmvisualization;
 
-/**
- * @author shiningflash
- */
-
 import java.util.Random;
 import javafx.scene.paint.Color;
 
@@ -16,6 +12,18 @@ public class GenerateRandomNodes {
         for (int i = 0; i < nodes.length; i++) {
             nodes[i] = new Node(1 + r.nextInt(nodes.length));
             nodes[i].setX(i * (HomepageController.WINDOW_WIDTH / nodes.length) + 5);
+            nodes[i].setFill(Color.WHITE);
+            setNodeDim(nodes[i], nodes.length);
+            //System.out.println(nodes[i]);
+        }
+        return nodes;
+    }
+    public static Node[] GenerateRandomNodes(int args[]) {
+        Node nodes[] = new Node[args.length];
+        for (int i = 0; i < nodes.length; i++) {
+            nodes[i] = new Node(1 + args[i]);
+            System.out.println(args[i]);
+            nodes[i].setX(i * (HomepageController.WINDOW_WIDTH / nodes.length)+ 5);
             nodes[i].setFill(Color.WHITE);
             setNodeDim(nodes[i], nodes.length);
             //System.out.println(nodes[i]);

@@ -4,10 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import javafx.animation.Transition;
 
-/**
- * @author shiningflash
- */
-
 public class BubbleSort extends AbstractSort {
     private ArrayList<Transition> transitions;
     private boolean f;

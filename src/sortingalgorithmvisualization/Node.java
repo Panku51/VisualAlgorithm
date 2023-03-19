@@ -2,6 +2,7 @@ package sortingalgorithmvisualization;
 
 import javafx.animation.TranslateTransition;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Text;
 import javafx.util.Duration;
 
 
@@ -15,6 +16,8 @@ public class Node extends Rectangle {
     public int getValue() {
         return val;
     }
+    final Text text = new Text("abc");
+
     
     public TranslateTransition moveX(int x) {
         TranslateTransition translation = new TranslateTransition();

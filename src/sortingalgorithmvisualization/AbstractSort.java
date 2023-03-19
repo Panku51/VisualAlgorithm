@@ -1,6 +1,5 @@
 package sortingalgorithmvisualization;
 
-import sortingalgorithmvisualization.HomepageController;
 import java.util.ArrayList;
 import java.util.List;
 import javafx.scene.paint.Color;
@@ -9,9 +8,6 @@ import javafx.animation.ParallelTransition;
 import javafx.animation.Transition;
 import javafx.util.Duration;
 
-/**
- * @author shiningflash
- */
 
 public abstract class AbstractSort {
     public final Color START_COLOR = Color.WHITE;

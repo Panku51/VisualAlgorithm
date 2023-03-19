@@ -8,12 +8,11 @@ import javafx.stage.Stage;
 
 public class Main extends Application 
 {
-	@Override
- public void start(Stage primaryStage) 
+	public void start(Stage primaryStage) 
    {
 		try {
 				Parent root=FXMLLoader.load(getClass().getResource("HomeView.fxml")); 
-				Scene scene = new Scene(root,800,600);
+				Scene scene = new Scene(root,800,550);
 				//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 				primaryStage.setScene(scene);
 				primaryStage.show();

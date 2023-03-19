@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -11,7 +12,7 @@
    <children>
       <ImageView fitHeight="562.0" fitWidth="824.0" layoutX="-3.0" layoutY="-21.0" opacity="0.31" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@vector-nanotechnology-virtual-abstract-background%20(1)%20(1).jpg" />
+            <Image url="@vector-nanotechnology-virtual-abstract-background.jpg" />
          </image>
       </ImageView>
       <AnchorPane layoutX="-7.0" prefHeight="100.0" prefWidth="797.0">
@@ -39,5 +40,46 @@
             <Image url="@Untitled_design__2_-removebg-preview.png" />
          </image>
       </ImageView>
+      <ImageView fitHeight="59.0" fitWidth="51.0" layoutX="736.0" layoutY="481.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OIP%20(4).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="43.0" layoutY="196.0" onMouseClicked="#OpenSorting" prefHeight="205.0" prefWidth="201.0">
+         <tooltip>
+            <Tooltip text="Click for more-&#10;&#10;Selection Sort&#10;Bubble Sort&#10;Insertion Sort">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </Label>
+      <Label layoutX="296.0" layoutY="202.0" onMouseClicked="#OpenPF" prefHeight="193.0" prefWidth="208.0">
+         <tooltip>
+            <Tooltip text="Click for more-&#10;&#10;Dijkstra&#10;">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </Label>
+      <Label layoutX="552.0" layoutY="202.0" onMouseClicked="#OpenDS" prefHeight="193.0" prefWidth="201.0">
+         <tooltip>
+            <Tooltip text="Click for more-&#10;&#10;Stack&#10;Queue&#10;Linked List">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </Label>
+      <Label layoutX="736.0" layoutY="481.0" onMouseClicked="#OpenAbout" prefHeight="51.0" prefWidth="51.0">
+         <tooltip>
+            <Tooltip text="Know The Developers">
+               <font>
+                  <Font name="Times New Roman" size="21.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </Label>
    </children>
 </AnchorPane>

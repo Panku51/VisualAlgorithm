@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="464.0" fitWidth="797.0" layoutY="78.0" pickOnBounds="true">
+         <image>
+            <Image url="@VO0HDw.jpg" />
+         </image></ImageView>
+      <HBox prefHeight="77.0" prefWidth="798.0" style="-fx-background-color: #000000;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="              ABOUT US">
+               <font>
+                  <Font name="Algerian" size="68.0" />
+               </font>
+            </Text>
+         </children></HBox>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="199.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Untitled%20design%20(5).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="441.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Untitled%20design%20(6).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="199.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Untitled%20design%20(3).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="441.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Untitled%20design%20(4).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="222.0" layoutY="271.0" text="Pankaj Kalra&#10;   (CCVT)">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="464.0" layoutY="271.0" text="Ruchi Singh&#10;   (CCVT)">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="222.0" layoutY="480.0" text="Khushi Gupta&#10;    (AIML)">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="464.0" layoutY="480.0" text="Vedant Arora&#10;      (CSF)">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="59.0" fitWidth="49.0" layoutX="738.0" layoutY="483.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@home-vector-icon%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="738.0" layoutY="483.0" prefHeight="49.0" prefWidth="49.0">
+         <tooltip>
+            <Tooltip text="Home">
+               <font>
+                  <Font name="Algerian" size="25.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </Label>
+   </children>
+</AnchorPane>

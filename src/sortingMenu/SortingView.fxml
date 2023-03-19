@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sortingMenu.SortingViewController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sortingMenu.SortingViewController">
    <children>
       <BorderPane layoutX="-2.0" prefHeight="523.0" prefWidth="764.0">
          <left>
@@ -83,7 +83,7 @@
             </VBox>
          </left>
          <top>
-            <HBox prefHeight="58.0" prefWidth="764.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
+            <HBox prefHeight="58.0" prefWidth="827.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
                <children>
                   <Label alignment="TOP_CENTER" prefHeight="48.0" prefWidth="765.0" text="Visual Rendering of Data Structure Algorithms" textAlignment="JUSTIFY" textFill="WHITE">
                      <font>
@@ -96,7 +96,7 @@
          <center>
             <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <ImageView fitHeight="487.0" fitWidth="664.0" layoutX="3.0" layoutY="1.0" opacity="0.36" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="465.0" fitWidth="706.0" layoutX="3.0" layoutY="1.0" opacity="0.36" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@vector-nanotechnology-virtual-abstract-background%20(1)%20(1).jpg" />
                      </image>
@@ -111,7 +111,7 @@
                         <Font name="Bell MT" size="22.0" />
                      </font>
                   </Button>
-                  <Button layoutX="26.0" layoutY="264.0" mnemonicParsing="false" onAction="#DoSelectionSort" prefHeight="43.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Selection Sort" textAlignment="CENTER" textFill="WHITE">
+                  <Button layoutX="26.0" layoutY="264.0" mnemonicParsing="false" onAction="#DoSelectionSort" prefHeight="43.0" prefWidth="170.0" style="-fx-background-color: #000000;" text="Selection Sort" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Bell MT" size="23.0" />
                      </font>
@@ -131,7 +131,7 @@
                         <Image url="@search.png" />
                      </image>
                   </ImageView>
-                  <Button layoutX="242.0" layoutY="382.0" mnemonicParsing="false" onAction="#DoQuickSort" prefHeight="44.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Quick Sort" textFill="WHITE">
+                  <Button layoutX="242.0" layoutY="382.0" mnemonicParsing="false" onAction="#DoInsertionSort" prefHeight="44.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Insertion Sort" textFill="WHITE">
                      <font>
                         <Font name="Bell MT" size="22.0" />
                      </font>

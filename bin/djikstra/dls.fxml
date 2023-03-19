@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="74.0" stroke="BLACK" strokeType="INSIDE" width="941.0" />
+      <ImageView fitHeight="508.0" fitWidth="940.0" layoutY="74.0" opacity="0.5" pickOnBounds="true">
+         <image>
+            <Image url="@R.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="188.0" layoutX="136.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" width="666.0" />
+      <Text fill="WHITE" layoutX="254.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Doubly Linked List">
+         <font>
+            <Font name="Times New Roman" size="55.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Doubly linked list is a complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence. Therefore, in a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer)." wrappingWidth="818.5072746276855">
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="160.0" fitWidth="671.0" layoutX="150.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@doubly-linked-list-1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="396.0" layoutY="464.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="145.0" style="-fx-background-color: #000000;" text="Visualisation" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="21.0" />
+         </font>
+         <effect>
+            <Bloom threshold="0.49">
+               <input>
+                  <Blend />
+               </input>
+            </Bloom>
+         </effect>
+      </Button>
+      <ImageView accessibleRole="BUTTON" fitHeight="64.0" fitWidth="61.0" layoutX="2.0" layoutY="519.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../minor/Back-Button-Transparent-Image.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="42.0" fitWidth="46.0" layoutX="888.0" layoutY="528.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../minor/home-vector-icon%20(1).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="227.0" layoutX="59.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dld.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="227.0" layoutX="672.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dld.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

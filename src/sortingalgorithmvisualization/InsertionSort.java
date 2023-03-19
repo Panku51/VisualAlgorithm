@@ -6,10 +6,6 @@ import javafx.scene.paint.Color;
 import javafx.animation.ParallelTransition;
 import javafx.animation.Transition;
 
-/**
- * @author shiningflash
- */
-
 public class InsertionSort extends AbstractSort{
    
     private ArrayList<Transition> transitions;

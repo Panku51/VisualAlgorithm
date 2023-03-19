@@ -17,12 +17,31 @@ public class HomeViewController {
 
 	@FXML
 	private URL location;
+	
+	@FXML
+    void OpenAbout(MouseEvent event) {
+		Parent root;
+		try {
+			root = FXMLLoader.load(getClass().getResource("/home/about.fxml"));
+		// OR
+//Parent root=FXMLLoader.load(getClass().getClassLoader().getResource("marks/card/MarksCard.fxml")); 
+		Scene scene = new Scene(root);
+		Stage stage = new Stage();
+		stage.setScene(scene);
+		stage.show();
+	}
+	catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+    }
+
 
 	@FXML
 	void OpenDS(MouseEvent event) {
 		Parent root;
 		try {
-			root = FXMLLoader.load(getClass().getResource("/menu/MenuView.fxml"));
+			root = FXMLLoader.load(getClass().getResource("/dsMenu/DsView.fxml"));
 		// OR
 //Parent root=FXMLLoader.load(getClass().getClassLoader().getResource("marks/card/MarksCard.fxml")); 
 		Scene scene = new Scene(root);
@@ -40,7 +59,7 @@ public class HomeViewController {
 	void OpenPF(MouseEvent event) {
 		Parent root;
 		try {
-			root = FXMLLoader.load(getClass().getResource("/menu/MenuView.fxml"));
+			root = FXMLLoader.load(getClass().getResource("/pfMenu/pathfindingView.fxml"));
 		// OR
 //Parent root=FXMLLoader.load(getClass().getClassLoader().getResource("marks/card/MarksCard.fxml")); 
 		Scene scene = new Scene(root);

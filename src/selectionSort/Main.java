@@ -12,8 +12,8 @@ public class Main extends Application
  public void start(Stage primaryStage) 
    {
 		try {
-				Parent root=FXMLLoader.load(getClass().getResource("SelectionView.fxml")); 
-				Scene scene = new Scene(root,800,600);
+				Parent root=FXMLLoader.load(getClass().getResource("selSort.fxml")); 
+				Scene scene = new Scene(root,900,580);
 				//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 				primaryStage.setScene(scene);
 				primaryStage.show();

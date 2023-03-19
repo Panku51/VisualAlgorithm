@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="74.0" prefWidth="798.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label prefHeight="70.0" prefWidth="809.0" text="  Visual Rendering of Data Structure Algorithms" textFill="WHITE">
+               <font>
+                  <Font name="High Tower Text" size="38.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <ImageView fitHeight="380.0" fitWidth="798.0" layoutY="74.0" opacity="0.5" pickOnBounds="true">
+         <image>
+            <Image url="@vector-nanotechnology-virtual-abstract-background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="48.0" layoutX="740.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@OIP (4).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="182.0" fitWidth="200.0" layoutX="310.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Untitled_design__1_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="182.0" fitWidth="202.0" layoutX="537.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Untitled_design__2_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="182.0" fitWidth="193.0" layoutX="83.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Untitled_design-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="83.0" layoutY="149.0" prefHeight="182.0" prefWidth="182.0">
+         <tooltip>
+            <Tooltip text="Click for more-&#10;&#10;•&#9;Selection Sort&#10;•&#9;Quick Sort&#10;•&#9;Bubble Sort&#10;">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </Label>
+      <Label layoutX="310.0" layoutY="149.0" prefHeight="182.0" prefWidth="182.0">
+         <tooltip>
+            <Tooltip text="Click for more-&#10;&#10;•&#9;Dijkstra&#10;•&#9;Knapsack&#10;">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </Label>
+      <Label layoutX="537.0" layoutY="149.0" prefHeight="182.0" prefWidth="182.0">
+         <tooltip>
+            <Tooltip text="Click for more-&#10;&#10;•&#9;Stack&#10;•&#9;Queue&#10;">
+               <font>
+                  <Font name="Times New Roman" size="25.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </Label>
+      <Label layoutX="736.0" layoutY="396.0" prefHeight="47.0" prefWidth="47.0">
+         <tooltip>
+            <Tooltip text="Know The Developers">
+               <font>
+                  <Font name="Times New Roman" size="22.0" />
+               </font>
+            </Tooltip>
+         </tooltip>
+      </Label>
+   </children>
+</AnchorPane>

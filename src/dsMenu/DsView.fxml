@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsMenu.DsViewController">
+<AnchorPane id="AnchorPane" fx:id="myAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsMenu.DsViewController">
    <children>
       <BorderPane layoutX="-2.0" prefHeight="523.0" prefWidth="764.0">
          <left>
@@ -85,7 +85,7 @@
          <top>
             <HBox prefHeight="58.0" prefWidth="764.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
                <children>
-                  <Label alignment="TOP_CENTER" prefHeight="48.0" prefWidth="765.0" text="Visual rendering of data structure algorithms" textAlignment="JUSTIFY" textFill="WHITE">
+                  <Label alignment="TOP_CENTER" prefHeight="48.0" prefWidth="765.0" text="Visual Rendering of Data Structure Algorithms" textAlignment="JUSTIFY" textFill="WHITE">
                      <font>
                         <Font name="Berlin Sans FB" size="40.0" />
                      </font>
@@ -94,36 +94,46 @@
             </HBox>
          </top>
          <center>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <AnchorPane fx:id="MyAnchor" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <ImageView fitHeight="487.0" fitWidth="664.0" layoutX="3.0" layoutY="1.0" opacity="0.36" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="465.0" fitWidth="643.0" layoutX="3.0" layoutY="1.0" opacity="0.36" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@vector-nanotechnology-virtual-abstract-background%20(1)%20(1).jpg" />
                      </image>
                   </ImageView>
-                  <Label layoutX="68.0" layoutY="41.0" text="Data Structure">
+                  <Label layoutX="141.0" layoutY="41.0" text="Data Structure">
                      <font>
                         <Font name="Algerian" size="64.0" />
                      </font>
                   </Label>
-                  <Button layoutX="419.0" layoutY="318.0" mnemonicParsing="false" onAction="#DoQueue" prefHeight="44.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Queue" textFill="WHITE">
+                  <Button layoutX="253.0" layoutY="318.0" mnemonicParsing="false" onAction="#DoQueue" prefHeight="44.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Queue" textFill="WHITE">
                      <font>
                         <Font name="Bell MT" size="22.0" />
                      </font>
                   </Button>
-                  <Button layoutX="53.0" layoutY="318.0" mnemonicParsing="false" onAction="#DoStack" prefHeight="43.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Stack" textAlignment="CENTER" textFill="WHITE">
+                  <Button layoutX="38.0" layoutY="318.0" mnemonicParsing="false" onAction="#DoStack" prefHeight="43.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Stack" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Bell MT" size="23.0" />
                      </font>
                   </Button>
-                  <ImageView fitHeight="134.0" fitWidth="136.0" layoutX="68.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="134.0" fitWidth="136.0" layoutX="53.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@algorithm.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="142.0" fitWidth="143.0" layoutX="430.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="142.0" fitWidth="143.0" layoutX="264.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@queue%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="456.0" layoutY="318.0" mnemonicParsing="false" onAction="#DoLinkedList" prefHeight="44.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Linked List" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="22.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="167.0" fitWidth="200.0" layoutX="430.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@sel.png" />
                      </image>
                   </ImageView>
                </children>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="589.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e9f5ff" height="491.0" layoutX="485.0" layoutY="96.0" stroke="BLACK" strokeType="INSIDE" width="452.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#afff9d" height="98.0" layoutX="492.0" layoutY="358.0" stroke="BLACK" strokeType="INSIDE" width="221.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="77.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="940.0" />
+      <Text fill="WHITE" layoutX="331.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selection Sort">
+         <font>
+            <Font name="Times New Roman" size="58.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="131.0" fitWidth="210.0" layoutX="148.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../minor/sor.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="194.0" layoutX="643.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../minor/Blank%20diagram%20(3).png" />
+         </image>
+      </ImageView>
+      <Line endX="-100.0" endY="514.0" layoutX="580.0" layoutY="85.0" startX="-100.0" startY="-12.200004577636719" />
+      <Text layoutX="188.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Algorithm" underline="true">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="677.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java Code" underline="true">
+         <font>
+            <Font name="Times New Roman" size="23.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="188.0" fitWidth="164.0" layoutX="399.0" layoutY="201.0" opacity="0.35" pickOnBounds="true">
+         <image>
+            <Image url="@JAVA2-Logo.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="74.0" fitWidth="70.0" layoutX="-6.0" layoutY="523.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../minor/Back-Button-Transparent-Image.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="41.0" fitWidth="40.0" layoutX="65.0" layoutY="538.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../minor/home-vector-icon%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ddff00" height="58.0" layoutX="537.0" layoutY="287.0" stroke="BLACK" strokeType="INSIDE" width="187.0" />
+      <Text layoutX="495.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="class SelectionSort&#10;{&#10;    void sort(int arr[])&#10;    {&#10;        int n = arr.length;&#10;         for (int i = 0; i &lt; n-1; i++) {&#10;            int min_idx = i;&#10;            for (int j = i+1; j &lt; n; j++)&#10;                if (arr[j] &lt; arr[min_idx])&#10;                    min_idx = j;&#10;                    int temp = arr[min_idx];&#10;            arr[min_idx] = arr[i];&#10;            arr[i] = temp;} &#10;}&#10;void printArray(int arr[]) {&#10;        int n = arr.length;&#10;        for (int i=0; i&lt;n; ++i)&#10;            System.out.print(arr[i]+&quot; &quot;);&#10;        System.out.println();  }&#10;public static void main(String args[]) {&#10;        SelectionSort ob = new SelectionSort();&#10;        int arr[] = {64,25,12,22,11};&#10;        ob.sort(arr);&#10;        System.out.println(&quot;Sorted array&quot;);&#10;        ob.printArray(arr); } &#10;}" wrappingWidth="423.7366752624512">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffdc97" height="25.0" layoutX="768.0" layoutY="449.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+      <Text layoutX="773.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="//Driver code to test above">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="720.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="// Prints the array">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="728.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" // Swap the found minimum element with the first element" wrappingWidth="207.36770629882824">
+         <font>
+            <Font size="13.5" />
+         </font>
+      </Text>
+      <Text layoutX="18.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.Start&#10;2.Initialize minimum value(min_idx) to location 0.&#10;3.Traverse the array to find the minimum element in the array.&#10;4.While traversing if any element smaller than min_idx is found then swap both the values.&#10;5.Then, increment min_idx to point to the next element.&#10;6.Repeat until the array is sorted.&#10;7.Stop" wrappingWidth="435.759033203125">
+         <font>
+            <Font name="Times New Roman" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="732.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Referemce-Data Structures and Algorithms in Java&#10;                   Michael T. Goodrich&#10;                   Roberto Tamassia">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

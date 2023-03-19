@@ -25,9 +25,6 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.Alert;
 import sun.misc.BASE64Encoder;
 
-/**
- * @author shiningflash
- */
 
 public class SignUpController implements Initializable {
     

@@ -13,13 +13,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="761.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pfMenu.pathfindingViewController">
    <children>
       <BorderPane layoutX="-2.0" prefHeight="523.0" prefWidth="764.0">
          <left>
             <VBox prefHeight="450.0" prefWidth="119.0" style="-fx-background-color: #327FC2;" BorderPane.alignment="CENTER">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="123.0" prefWidth="119.0" style="-fx-background-color: #153AA4;" text="Path &#10;Finding " textAlignment="CENTER" textFill="WHITE">
+                  <Button mnemonicParsing="false" onAction="#openPf" prefHeight="123.0" prefWidth="119.0" style="-fx-background-color: #153AA4;" text="Path &#10;Finding " textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Berlin Sans FB Demi Bold" size="22.0" />
                      </font>
@@ -34,7 +34,7 @@
                         </Lighting>
                      </effect>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="123.0" prefWidth="119.0" style="-fx-background-color: #153AA4;" text="Data &#10;Structure" textAlignment="CENTER" textFill="WHITE">
+                  <Button mnemonicParsing="false" onAction="#openDs" prefHeight="123.0" prefWidth="119.0" style="-fx-background-color: #153AA4;" text="Data &#10;Structure" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Berlin Sans FB Demi Bold" size="20.0" />
                      </font>
@@ -49,7 +49,7 @@
                         </Lighting>
                      </effect>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="123.0" prefWidth="119.0" style="-fx-background-color: #153AA4;" text="Sorting" textFill="WHITE">
+                  <Button mnemonicParsing="false" onAction="#openSorting" prefHeight="123.0" prefWidth="119.0" style="-fx-background-color: #153AA4;" text="Sorting" textFill="WHITE">
                      <font>
                         <Font name="Berlin Sans FB Demi Bold" size="24.0" />
                      </font>
@@ -64,7 +64,7 @@
                         </Lighting>
                      </effect>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="123.0" prefWidth="119.0" style="-fx-background-color: #153AA4;" text="Home" textFill="WHITE">
+                  <Button mnemonicParsing="false" onAction="#openHome" prefHeight="123.0" prefWidth="119.0" style="-fx-background-color: #153AA4;" text="Home" textFill="WHITE">
                      <font>
                         <Font name="Berlin Sans FB Demi Bold" size="24.0" />
                      </font>
@@ -85,7 +85,7 @@
          <top>
             <HBox prefHeight="58.0" prefWidth="764.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
                <children>
-                  <Label alignment="TOP_CENTER" prefHeight="48.0" prefWidth="765.0" text="Visual rendering of data structure algorithms" textAlignment="JUSTIFY" textFill="WHITE">
+                  <Label alignment="TOP_CENTER" prefHeight="48.0" prefWidth="765.0" text="Visual Rendering of Data Structure Algorithms" textAlignment="JUSTIFY" textFill="WHITE">
                      <font>
                         <Font name="Berlin Sans FB" size="40.0" />
                      </font>
@@ -94,36 +94,26 @@
             </HBox>
          </top>
          <center>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <AnchorPane prefHeight="466.0" prefWidth="705.0" BorderPane.alignment="CENTER">
                <children>
-                  <ImageView fitHeight="487.0" fitWidth="664.0" layoutX="3.0" layoutY="1.0" opacity="0.36" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="531.0" fitWidth="664.0" layoutX="3.0" layoutY="1.0" opacity="0.36" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@vector-nanotechnology-virtual-abstract-background%20(1)%20(1).jpg" />
                      </image>
                   </ImageView>
-                  <Label layoutX="114.0" layoutY="36.0" text="path Finding">
+                  <Label layoutX="63.0" layoutY="52.0" prefHeight="39.0" prefWidth="612.0" text="Shortest Path Finding">
                      <font>
-                        <Font name="Algerian" size="68.0" />
+                        <Font size="54.0" />
                      </font>
                   </Label>
-                  <Button layoutX="424.0" layoutY="318.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Knapsack" textFill="WHITE">
-                     <font>
-                        <Font name="Bell MT" size="22.0" />
-                     </font>
-                  </Button>
-                  <Button layoutX="48.0" layoutY="318.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Dijkstra" textAlignment="CENTER" textFill="WHITE">
+                  <Button layoutX="225.0" layoutY="326.0" mnemonicParsing="false" onAction="#openDijkstra" prefHeight="43.0" prefWidth="164.0" style="-fx-background-color: #000000;" text="Dijkstra" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Bell MT" size="23.0" />
                      </font>
                   </Button>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="186.0" fitWidth="216.0" layoutX="228.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@path-point.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="130.0" fitWidth="126.0" layoutX="441.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@backpack.png" />
                      </image>
                   </ImageView>
                </children>
