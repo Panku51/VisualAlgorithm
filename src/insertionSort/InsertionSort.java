@@ -5,6 +5,7 @@ import javax.swing.*;
 
 
 
+
 class InsertionPanel extends JPanel{
 	private int nos[],pos1,pos2,pass;
 	private boolean flag,flag1,flag2;
